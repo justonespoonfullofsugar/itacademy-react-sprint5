@@ -21,3 +21,39 @@ main {
     border-radius: 3px;
     cursor: pointer;
 }
+
+
+.formulari{
+ display: none;
+}
+
+.formulari-actiu{
+    display: block;
+}
+
+.formulari_valoracio,
+.formulari_selecciona,
+.formulari_valor,
+.formulari_input{
+    margin-bottom: 0;
+}
+
+.formulari_valoracio,
+.formulari_input{
+    font-size: 18px;
+}
+
+.formulari_selecciona{
+    font-size: 14px;
+}
+
+.formulari_valor{
+    font-size: 12px;
+}
+
+.formulari_valoracio-actiu,
+.formulari_selecciona-actiu,
+.formulari_valor-actiu,
+.formulari_input-actiu{
+    margin-bottom: 0;
+}
