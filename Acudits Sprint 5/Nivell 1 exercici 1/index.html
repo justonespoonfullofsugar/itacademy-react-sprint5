@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <main>
+            
+        <div class="formulari_button">
+            <button type="button" id="acudit">VULL UN ACUDIT</button>
+        </div>
+
+        <div class="acudit_trobat" id="onapareixacudit">
+        </div>
+
+        <div class="formulari" id="formulari">
+            <h1 class="formulari_valoracio" id="valoracio">SI US PLAU, VALORA L'ACUDIT:</h1>
+
+            <p class="formulari_selecciona" id="valoracio">(selecciona una de les tres opcions)</p>
+
+              <input class="formulari_valor" type="radio" id="valoracioDolent" name="fav_language" value="1">
+              <label class="formulari_valor" for="acuditDolent">DOLENT</label><br>
+
+              <input class="formulari_valor" type="radio" id="valoracioNormal" name="fav_language" value="2">
+              <label class="formulari_valor" for="acuditNormal">NORMAL</label><br>
+
+              <input class="formulari_valor" type="radio" id="valoracioBo" name="fav_language" value="3">
+              <label class="formulari_valor" for="acuditBo">BÓ</label>
+            <br>
+            <br>
+            <button id="botoValora">Valora</button>
+        </div>
+
+    </main>
+
+    <script src="acudits.js"></script>
+
+</body>
+</html>

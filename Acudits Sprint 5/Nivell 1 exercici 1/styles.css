@@ -1,0 +1,59 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(234, 163, 241);
+}
+
+main {
+    max-width: 800px;
+    width: 90%;
+    margin: auto;
+    padding: 40px;
+}
+
+.onapareixacudit {
+    height: 90px;
+    line-height: 45px;
+    width: 30%;
+    background: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+.formulari{
+ display: none;
+}
+
+.formulari-actiu{
+    display: block;
+}
+
+.formulari_valoracio,
+.formulari_selecciona,
+.formulari_valor,
+.formulari_input{
+    margin-bottom: 0;
+}
+
+.formulari_valoracio,
+.formulari_input{
+    font-size: 18px;
+}
+
+.formulari_selecciona{
+    font-size: 14px;
+}
+
+.formulari_valor{
+    font-size: 12px;
+}
+
+.formulari_valoracio-actiu,
+.formulari_selecciona-actiu,
+.formulari_valor-actiu,
+.formulari_input-actiu{
+    margin-bottom: 0;
+}
